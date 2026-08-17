@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  font-feature-settings: "ss01" 1, "kern" 1;
+}
+
+::selection {
+  background: #B54A2E;
+  color: #F2EEE3;
+}
+
+:focus-visible {
+  outline: 2px solid #B54A2E;
+  outline-offset: 3px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Ledger rule: a thin baseline that carries the "registry" motif through the page */
+.ledger-rule {
+  border-top: 1px solid #C9C2AC;
+}
+
+.ledger-num {
+  font-variant-numeric: tabular-nums;
+}
