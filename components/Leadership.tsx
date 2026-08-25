@@ -34,8 +34,9 @@ export default function Leadership() {
 
           <div className="md:col-span-4 md:col-start-9">
             <ImageFrame
-              alt="KANOPI FEB UI — finance bureau team"
-              caption="experience/kanopi-01.webp · 4:5"
+              src="/images/experience/kanopi-01.webp"
+              alt="experience/kanopi-01.webp · 4:5"
+              caption="KANOPI FEB UI — finance bureau team"
               ratio="aspect-[4/5]"
             />
           </div>

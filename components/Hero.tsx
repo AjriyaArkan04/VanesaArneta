@@ -47,9 +47,9 @@ export default function Hero() {
 
           <div className="min-w-0 md:col-span-4 md:pt-2">
             <ImageFrame
-              src={undefined}
-              alt="Portrait — Vanesa Arneta"
-              caption="profile.webp · 4:5"
+              src="/images/profile.webp"
+              alt="profile.webp · 4:5 "
+              caption=""
               priority
               ratio="aspect-[4/5]"
             />

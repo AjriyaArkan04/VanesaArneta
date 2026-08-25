@@ -53,15 +53,17 @@ export default function FeaturedExperience() {
 
           <div className="md:col-span-4 md:col-start-9">
             <ImageFrame
+              src="/images/experience/hsbc-01.webp"
               alt="HSBC Indonesia — internship team"
-              caption="experience/hsbc-01.webp · 4:5"
+              caption="HSBC Indonesia — internship team"
               ratio="aspect-[4/5]"
               className="[&_div]:!bg-paper/10 [&_div]:!border-paper/20"
             />
             <div className="mt-4">
               <ImageFrame
+                src="/images/experience/hsbc-02.webp"
                 alt="HSBC Indonesia — client presentation"
-                caption="experience/hsbc-02.webp · 4:3"
+                caption="HSBC Indonesia"
                 ratio="aspect-[4/3]"
                 className="[&_div]:!bg-paper/10 [&_div]:!border-paper/20"
               />

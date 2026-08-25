@@ -35,7 +35,7 @@ export default function Ledger() {
             </h2>
           </div>
           <p className="max-w-xs font-body text-sm text-ink-soft">
-            Kept as a running record — the way I&rsquo;d file it myself.
+            Kept as a running record, the way I&rsquo;d file it myself.
           </p>
         </div>
 
