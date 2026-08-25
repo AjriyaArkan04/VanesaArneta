@@ -18,9 +18,9 @@ export default function EventsPeople() {
         {/* showcase strip */}
         <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
           {[
-            { title: ep.showcase[0], file: "bahana-sekuritas.webp" },
-            { title: ep.showcase[1], file: "us-phd-sharing.webp" },
-            { title: ep.showcase[2], file: "palmoil-launch.webp" },
+            { title: ep.showcase[0], file: "bahana-sekuritas.jpeg" },
+            { title: ep.showcase[1], file: "us-phd-sharing.jpeg" },
+            { title: ep.showcase[2], file: "palmoil-launch.jpeg" },
           ].map((item) => (
             <ImageFrame
               key={item.file}
@@ -74,7 +74,7 @@ export default function EventsPeople() {
             </ul>
           </div>
           <ImageFrame
-            src="/images/events/toyota-01.webp"
+            src="/images/events/toyota-01.jpeg"
             alt="events/toyota-01.webp · 4:3"
             caption="Toyota — 100 Tahun Industri Otomotif Indonesia"
             ratio="aspect-[4/3]"

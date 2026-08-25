@@ -47,7 +47,7 @@ export default function Hero() {
 
           <div className="min-w-0 md:col-span-4 md:pt-2">
             <ImageFrame
-              src="/images/profile.webp"
+              src="/images/profile.jpeg"
               alt="profile.webp · 4:5 "
               caption=""
               priority
