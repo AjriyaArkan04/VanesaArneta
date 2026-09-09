@@ -28,7 +28,7 @@ export default function Ledger() {
         <div className="mb-10 flex flex-wrap items-baseline justify-between gap-4">
           <div>
             <p className="font-mono text-xs uppercase tracking-wide3 text-rust">
-              03 — Registry
+              04 — Registry
             </p>
             <h2 className="mt-3 font-display text-3xl leading-tight text-ink md:text-4xl">
               Other roles, in the ledger

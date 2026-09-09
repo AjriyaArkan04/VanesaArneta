@@ -9,30 +9,30 @@ export default function Contact() {
         </p>
 
         <h2 className="mt-4 max-w-2xl text-balance font-display text-4xl leading-[1.05] md:text-6xl">
-          Open to institutional banking, finance, and organizing roles.
+          Open to Banking, Industry, FMCG, Finance, Business Development, and Organizing roles.
         </h2>
 
         <p className="mt-6 max-w-lg font-body text-paper/70">
-          The fastest way to reach me is email — I reply from Jakarta, usually
-          within a day.
+          The fastest way to reach me is LinkedIn. Feel free to connect or send me a
+          message there.
         </p>
 
         <div className="mt-12 flex flex-col gap-6 border-t border-paper/15 pt-8 sm:flex-row sm:items-baseline sm:justify-between">
           <a
-            href={`mailto:${profile.email}`}
+            href={profile.linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-display text-2xl text-paper underline decoration-rust decoration-2 underline-offset-4 transition-colors hover:text-rust md:text-3xl"
           >
-            {profile.email}
+            {profile.linkedin}
           </a>
 
           <div className="flex flex-col gap-2 font-mono text-sm text-paper/70 sm:items-end">
             <a
-              href={profile.linkedinUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`mailto:${profile.email}`}
               className="hover:text-rust"
             >
-              {profile.linkedin}
+              {profile.email}
             </a>
 
             <span>{profile.phone}</span>

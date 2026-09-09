@@ -7,7 +7,7 @@ export default function About() {
         <div className="md:col-span-4">
           <p className="font-mono text-xs uppercase tracking-wide3 text-rust">01 — About</p>
           <h2 className="mt-3 font-display text-3xl leading-tight text-ink md:text-4xl">
-            I read a balance sheet the same way I read a room.
+            Sales, Number, Relation, and Strategy Excites Me The Most.
           </h2>
         </div>
 

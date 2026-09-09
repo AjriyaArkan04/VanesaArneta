@@ -8,7 +8,7 @@ export default function FeaturedExperience() {
         <div className="mb-12 flex flex-wrap items-baseline justify-between gap-4">
           <div>
             <p className="font-mono text-xs uppercase tracking-wide3 text-rust">
-              02 — {fx.eyebrow}
+              03 — {fx.eyebrow}
             </p>
             <h2 className="mt-3 font-display text-3xl leading-tight md:text-5xl">
               {fx.company}

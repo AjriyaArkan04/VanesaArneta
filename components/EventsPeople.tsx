@@ -6,7 +6,7 @@ export default function EventsPeople() {
     <section id="events" className="border-b border-line">
       <div className="mx-auto max-w-content px-6 py-16 md:px-10 md:py-24">
         <p className="font-mono text-xs uppercase tracking-wide3 text-rust">
-          05 — Events &amp; People
+          06 — Events &amp; People
         </p>
         <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight text-ink md:text-4xl">
           {ep.intro}

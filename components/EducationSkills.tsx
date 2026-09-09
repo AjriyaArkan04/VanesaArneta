@@ -5,7 +5,7 @@ export default function EducationSkills() {
     <section id="education" className="border-b border-line bg-paper-deep">
       <div className="mx-auto max-w-content px-6 py-16 md:px-10 md:py-24">
         <p className="font-mono text-xs uppercase tracking-wide3 text-rust">
-          06 — Education &amp; Toolkit
+          02 — Education &amp; Toolkit
         </p>
 
         <div className="mt-6 grid grid-cols-1 gap-12 md:grid-cols-12">
@@ -14,7 +14,8 @@ export default function EducationSkills() {
               {education.primary.school}
             </h2>
             <p className="mt-1 font-mono text-xs uppercase tracking-wide2 text-ink-soft">
-              {education.primary.period} &middot; {education.primary.gpa}
+              {education.primary.period} &middot; {education.primary.gpa} &middot;{" "}
+              {education.primary.ept}
             </p>
             <p className="mt-4 max-w-xl font-body text-sm italic leading-relaxed text-ink-soft">
               Thesis — &ldquo;{education.primary.thesis}&rdquo;

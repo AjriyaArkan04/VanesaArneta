@@ -6,7 +6,7 @@ export default function Leadership() {
     <section id="leadership" className="border-b border-line bg-paper-deep">
       <div className="mx-auto max-w-content px-6 py-16 md:px-10 md:py-24">
         <p className="font-mono text-xs uppercase tracking-wide3 text-rust">
-          04 — Leadership
+          05 — Leadership
         </p>
 
         <div className="mt-6 grid grid-cols-1 gap-10 md:grid-cols-12">

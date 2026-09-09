@@ -202,6 +202,7 @@ export const education = {
     school: "Economics, Universitas Indonesia",
     period: "2022 – 2026",
     gpa: "GPA 3.54 / 4.00",
+    ept: "EPT FET Score: 607 — Issued by Fluentz",
 
     thesis:
       "The Effect of Imported Input Use on Productivity and Exports in Medium-High and High Technology Manufacturing Industries with Research and Development as a Moderating Variable",
